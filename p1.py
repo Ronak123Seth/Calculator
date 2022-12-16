@@ -21,5 +21,3 @@ elif choice == 3:
 elif choice == 4:
     d = division(x,y)
     print(d)
-else:
-    print("NOT POSSIBLE")
