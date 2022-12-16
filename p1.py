@@ -22,4 +22,4 @@ elif choice == 4:
     d = division(x,y)
     print(d)
 else:
-    print("Not possible")
+    print("NOT POSSIBLE")
