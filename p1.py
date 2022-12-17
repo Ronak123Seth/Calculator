@@ -23,8 +23,12 @@ elif choice == '-':
     s = substraction(x,y)
 elif choice == '*':
     s = multiplication(x,y)
-elif choice == '/':
+elif try: choice == '/':
     s = division(x,y)
+    except Exception as e:
+        print(e)
+        s=Math.inf
+        print("cannot divide by zero !")ṭ
 else:
     print("NOT POSSIBLE")
 print(s)
